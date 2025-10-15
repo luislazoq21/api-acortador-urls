@@ -1,0 +1,16 @@
+{
+    "name": "luisl/api-acortador-urls",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Luisl\\ApiAcortadorUrls\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luis Lazo",
+            "email": "luislazoq21@gmail.com"
+        }
+    ],
+    "require": {}
+}
