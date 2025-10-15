@@ -3,7 +3,9 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Luisl\\ApiAcortadorUrls\\": "src/"
+            "App\\": "app/",
+            "Core\\": "core/",
+            "Helpers\\": "helpers/"
         }
     },
     "authors": [
@@ -12,5 +14,8 @@
             "email": "luislazoq21@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "firebase/php-jwt": "^6.11",
+        "vlucas/phpdotenv": "^5.6"
+    }
 }
