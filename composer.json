@@ -17,5 +17,13 @@
     "require": {
         "firebase/php-jwt": "^6.11",
         "vlucas/phpdotenv": "^5.6"
+    },
+    "scripts": {
+        "migrate": "php database/migrate.php",
+        "seed": "php database/seed.php",
+        "refresh": [
+            "@migrate",
+            "@seed"
+        ]
     }
 }

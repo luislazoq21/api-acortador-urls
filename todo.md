@@ -86,45 +86,44 @@ Entregable: Dependencias instaladas y configuración básica lista
 🗄️ FASE 3: Base de Datos
 Creación de Base de Datos
 
-[] Abrir phpMyAdmin o cliente MySQL
-[] Crear base de datos url_shortener
-[] Configurar charset utf8mb4
-[] Crear archivo database/schema.sql
+[X] Abrir phpMyAdmin o cliente MySQL
+[X] Crear base de datos url_shortener
+[X] Configurar charset utf8mb4
+[X] Crear archivo database/schema.sql
 
 Tabla: users
 
-[] Diseñar estructura de tabla users
-[] Crear tabla con todos los campos
-[] Agregar índices necesarios
-[] Probar que se creó correctamente
+[X] Diseñar estructura de tabla users
+[X] Crear tabla con todos los campos
+[X] Agregar índices necesarios
+[X] Probar que se creó correctamente
 
 Tabla: urls
 
-[] Diseñar estructura de tabla urls
-[] Crear tabla con todos los campos
-[] Agregar foreign key a users
-[] Agregar índices necesarios
-[] Probar que se creó correctamente
+[X] Diseñar estructura de tabla urls
+[X] Crear tabla con todos los campos
+[X] Agregar foreign key a users
+[X] Agregar índices necesarios
+[X] Probar que se creó correctamente
 
 Tabla: url_clicks (Opcional)
 
-[] Diseñar estructura de tabla url_clicks
-[] Crear tabla con todos los campos
-[] Agregar foreign key a urls
-[] Agregar índices necesarios
+[X] Diseñar estructura de tabla url_clicks
+[X] Crear tabla con todos los campos
+[X] Agregar foreign key a urls
+[X] Agregar índices necesarios
 
 Datos de Prueba
 
-[] Crear archivo database/seeds.sql
-[] Insertar usuario de prueba
-[] Insertar 3-5 URLs de prueba
-[] Verificar que los datos se insertaron
+[X] Crear archivo database/seeds.sql
+[X] Insertar usuario de prueba
+[X] Insertar 3-5 URLs de prueba
+[X] Verificar que los datos se insertaron
 
 Commit
 
-[] Hacer commit: "feat: create database schema"
-[] Hacer commit: "feat: add seed data"
-[] Push a GitHub
+[X] Hacer commit: "feat: creación base de datos y datos de prueba"
+[X] Push a GitHub
 
 Entregable: Base de datos creada con estructura completa
 
