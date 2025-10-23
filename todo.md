@@ -148,11 +148,11 @@ Clase Request
 
 Clase Response
 
-[] Crear archivo core/Response.php
-[] Implementar método para enviar JSON
-[] Implementar método para códigos de estado HTTP
-[] Implementar método para headers CORS
-[] Implementar método para redirecciones
+[X] Crear archivo core/Response.php
+[X] Implementar método para enviar JSON
+[X] Implementar método para códigos de estado HTTP
+[X] Implementar método para headers CORS
+[X] Implementar método para redirecciones
 
 Clase Router
 
