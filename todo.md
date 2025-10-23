@@ -139,12 +139,12 @@ Clase Database
 
 Clase Request
 
-[] Crear archivo core/Request.php
-[] Implementar método para obtener método HTTP
-[] Implementar método para obtener URI
-[] Implementar método para obtener body (JSON)
-[] Implementar método para obtener headers
-[] Implementar método para obtener parámetros de URL
+[X] Crear archivo core/Request.php
+[X] Implementar método para obtener método HTTP
+[X] Implementar método para obtener URI
+[X] Implementar método para obtener body (JSON)
+[X] Implementar método para obtener headers
+[X] Implementar método para obtener parámetros de URL
 
 Clase Response
 
@@ -174,10 +174,10 @@ Archivo index.php
 
 Commit
 
-[X] Hacer commit: "feat: implement Database class"
-[] Hacer commit: "feat: implement Request and Response classes"
-[] Hacer commit: "feat: implement Router system"
-[] Hacer commit: "feat: setup index.php entry point"
+[X] Hacer commit: "feat: implementación de clase Database"
+[X] Hacer commit: "feat: implementación de clases Request y Response"
+[] Hacer commit: "feat: implementación de Router"
+[] Hacer commit: "feat: implementación index.php como punto de acceso"
 [] Push a GitHub
 
 Entregable: Sistema core funcionando (router, database, request/response)
