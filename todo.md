@@ -130,12 +130,12 @@ Entregable: Base de datos creada con estructura completa
 🔧 FASE 4: Core del Sistema
 Clase Database
 
-[] Crear archivo core/Database.php
-[] Implementar patrón Singleton
-[] Implementar conexión PDO
-[] Configurar opciones de PDO
-[] Agregar manejo de errores
-[] Probar conexión a base de datos
+[X] Crear archivo core/Database.php
+[X] Implementar patrón Singleton
+[X] Implementar conexión PDO
+[X] Configurar opciones de PDO
+[X] Agregar manejo de errores
+[X] Probar conexión a base de datos
 
 Clase Request
 
@@ -156,29 +156,29 @@ Clase Response
 
 Clase Router
 
- Crear archivo core/Router.php
- Implementar registro de rutas (GET, POST, PUT, DELETE)
- Implementar sistema de parámetros en rutas
- Implementar método dispatch
- Implementar soporte para middleware
- Implementar manejo de rutas no encontradas (404)
+[] Crear archivo core/Router.php
+[] Implementar registro de rutas (GET, POST, PUT, DELETE)
+[] Implementar sistema de parámetros en rutas
+[] Implementar método dispatch
+[] Implementar soporte para middleware
+[] Implementar manejo de rutas no encontradas (404)
 
 Archivo index.php
 
- Cargar autoloader de Composer
- Cargar variables de entorno (.env)
- Inicializar router
- Registrar todas las rutas
- Ejecutar dispatch
- Agregar try-catch global
+[] Cargar autoloader de Composer
+[] Cargar variables de entorno (.env)
+[] Inicializar router
+[] Registrar todas las rutas
+[] Ejecutar dispatch
+[] Agregar try-catch global
 
 Commit
 
- Hacer commit: "feat: implement Database class"
- Hacer commit: "feat: implement Request and Response classes"
- Hacer commit: "feat: implement Router system"
- Hacer commit: "feat: setup index.php entry point"
- Push a GitHub
+[X] Hacer commit: "feat: implement Database class"
+[] Hacer commit: "feat: implement Request and Response classes"
+[] Hacer commit: "feat: implement Router system"
+[] Hacer commit: "feat: setup index.php entry point"
+[] Push a GitHub
 
 Entregable: Sistema core funcionando (router, database, request/response)
 
