@@ -156,7 +156,7 @@ Clase Response
 
 Clase Router
 
-[] Crear archivo core/Router.php
+[X] Crear archivo core/Router.php
 [] Implementar registro de rutas (GET, POST, PUT, DELETE)
 [] Implementar sistema de parámetros en rutas
 [] Implementar método dispatch
@@ -176,7 +176,7 @@ Commit
 
 [X] Hacer commit: "feat: implementación de clase Database"
 [X] Hacer commit: "feat: implementación de clases Request y Response"
-[] Hacer commit: "feat: implementación de Router"
+[] Hacer commit: "feat: implementación de clase Router"
 [] Hacer commit: "feat: implementación index.php como punto de acceso"
 [] Push a GitHub
 
